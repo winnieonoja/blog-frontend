@@ -10,6 +10,26 @@ application, built with React and connected to a REST API.
 
 [View Blog Application](https://blog-frontend-tau-three.vercel.app/)
 
+## Application Screenshots
+
+### Homepage
+![Homepage](screenshots/homepage.png)
+
+### Login Page
+![Login Page](screenshots/login.png)
+
+### Registration Page
+![Registration Page](screenshots/register.png)
+
+### Create Post Page
+![Create Post Page](screenshots/create-post.png)
+
+### Single Post Page
+![Single Post Page](screenshots/single-post.png)
+
+### Admin Dashboard
+![Admin Dashboard](screenshots/admin-dashboard.png)
+
 ## Features
 
 ### User Features
