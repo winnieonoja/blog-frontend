@@ -1,19 +1,125 @@
-# React + Vite
+# Blog Application — Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack blogging application that allows users to create,
+share and engage with blog posts through a responsive interface.
 
-Currently, two official plugins are available:
+This repository contains the frontend implementation of the
+application, built with React and connected to a REST API.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Live Demo
 
-## React Compiler
+[View Blog Application](https://blog-frontend-tau-three.vercel.app/)
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+## Features
 
-Note: This will impact Vite dev & build performances.
-You can also try [the experimental native React Compiler support in plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md#rust-react-compiler) by using `compiler: true` in the plugin options instead of using the Babel plugin.
+### User Features
 
-## Expanding the ESLint configuration
+- User registration and login
+- User profile
+- Browse blog posts
+- Create and manage blog posts
+- Upload post images
+- Comment on posts
+- Like and dislike posts
+- View individual blog posts
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Admin Features
+
+- Admin dashboard
+- User management
+- Post management
+- Comment management
+
+## Technologies Used
+
+- React.js
+- JavaScript
+- Tailwind CSS
+- Vite
+- REST API
+- Git and GitHub
+- Vercel
+
+## Project Structure
+
+```text
+blog-frontend/
+├── public/
+├── src/
+│   ├── api/
+│   ├── assets/
+│   ├── components/
+│   │   └── admin/
+│   ├── pages/
+│   │   └── admin/
+│   ├── App.jsx
+│   ├── App.css
+│   └── main.jsx
+├── .gitignore
+├── README.md
+├── eslint.config.js
+├── index.html
+├── package.json
+├── package-lock.json
+├── vercel.json
+└── vite.config.js
+```
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js
+- npm
+- Git
+
+### Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/winnieonoja/blog-frontend.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd blog-frontend
+```
+
+Install dependencies:
+
+```bash
+npm ci
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Open the local URL displayed in your terminal.
+
+## Production Build
+
+To create a production build, run:
+
+```bash
+npm run build
+```
+
+## Backend Integration
+
+The frontend communicates with a REST API built using
+Node.js, Express.js and MongoDB.
+
+## Deployment
+
+The frontend application is deployed on Vercel.
+
+## Author
+
+Winnie Onoja — Full-Stack Developer
+
+[GitHub Profile](https://github.com/winnieonoja)
